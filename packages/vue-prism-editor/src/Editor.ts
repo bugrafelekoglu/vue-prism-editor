@@ -583,6 +583,7 @@ export const PrismEditor = Vue.extend({
       staticClass: 'prism-editor__editor',
       attrs: {
         'data-testid': 'preview',
+        'data-line': '1'
       },
       domProps: {
         innerHTML: this.content,
